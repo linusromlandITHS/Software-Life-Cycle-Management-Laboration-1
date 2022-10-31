@@ -2,6 +2,7 @@
 import './App.css';
 import iSocials from './interfaces/Socials';
 import SocialBadge from './components/SocialBadge';
+import { version } from '../package.json';
 
 function App() {
 	const socials: iSocials[] = [
@@ -65,6 +66,7 @@ function App() {
 					/>
 				))}
 			</div>
+			<p id="version">Version {version}</p>
 		</>
 	);
 }

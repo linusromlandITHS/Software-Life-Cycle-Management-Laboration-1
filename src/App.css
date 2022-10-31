@@ -28,3 +28,8 @@ body {
 	font-weight: 600;
 	margin: 1rem 0 0;
 }
+
+#version {
+	font-size: 0.9rem;
+	margin: 0.5rem 0 0;
+}
